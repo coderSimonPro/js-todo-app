@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    background-color: #0f2e48;
+}
+.container{
+    width: 100%;
+}
+main{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.wrapper{
+    width: 40%;
+    background-color: #11232c;
+    min-height: 300px;
+    max-height: 300px;
+    height:auto;
+    overflow-y:auto;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%); */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+h1{
+    color: #fff;
+    padding-top: 3rem;
+    text-align: center;
+}
+input.todoTextFiled {
+    width: 50%;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding: 8px;
+}
+.addTodo{
+    padding-top: 3rem;
+}
+.addBtn{
+    border: none;
+    cursor: pointer;
+    background-color: orange;
+    color: #fff;
+    border-radius: 8px;
+    padding: 8px;
+    transition: 0.5s;
+}
+.addBtn:hover{
+    background-color: red;
+    color: #fff;
+}
+.showTodos {
+    margin: 26px;
+    padding: 0px;
+    display: block;
+}
+.showTodos ul{
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    display: block;
+    width: 75%;
+}
+.showTodos ul li{
+    margin: 5px;
+    background-color: #fff;
+    color: black;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 12px;
+    background-color: #ddd;
+    text-align: left;
+    padding-left: 1rem;
+}
+.showMessage{
+    color: #fff;
+    opacity: 0;
+    background-color: green;
+    width: 22%;
+    transition: 0.5s;
+}
+.removeMsg{
+    color: #fff;
+    opacity: 0;
+    background-color: red;
+    width: 22%;
+    transition: 0.5s;
+}
+.todoMsgalert{
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.removeBtn{
+    background-color: tomato;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    border: none;
+    border-radius: 8px;
+    padding: 3px;
+}
+.removeBtn:hover{
+    background-color: red;
+}
